@@ -2,6 +2,6 @@ def my_collect(name)
   i = 0 
   collection = []
   while i < name.length
-  name.split(" ").first
+  collection << name.split(" ").first.yeild(name[i])
   
 end
