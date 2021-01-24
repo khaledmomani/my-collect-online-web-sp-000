@@ -3,5 +3,7 @@ def my_collect(name)
   collection = []
   while i < name.length
   collection << name.split(" ").first.yeild(name[i])
+  i += 1 
+end 
   
 end
