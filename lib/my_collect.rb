@@ -1,5 +1,7 @@
 def my_collect(empty)
-  while empty.length < 0 
+  i = 0 
   collection = []
+  while i < empty.length
+  empty.split(" ").first
   
 end
