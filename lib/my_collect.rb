@@ -1,7 +1,7 @@
-def my_collect(empty)
+def my_collect(name)
   i = 0 
   collection = []
-  while i < empty.length
-  empty.split(" ").first
+  while i < name.length
+  name.split(" ").first
   
 end
